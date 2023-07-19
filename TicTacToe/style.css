@@ -1,0 +1,43 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    text-align: center;
+    padding-top:0%;
+    padding-left:35%;
+}
+section{
+    text-align: center;
+    padding: 50px;
+}
+.game-container{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+    width: 300px;
+    margin: 50px auto;
+}
+.cell{
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    border: solid rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 60px;
+    background-color: rgb(31, 120, 120);
+    color:white;
+}
+.cell:hover{
+    transform: scale(1.1);
+}
+.game-restart{
+    width:100px;
+    height:50px;
+    background-color:  rgb(31, 120, 120);
+    color:rgb(255, 255, 255);
+    border:2px solid white;
+    font-size: large;
+    font-weight: bold;
+}
+.game-restart:hover{
+    transform:scale(1.2);
+    transition-timing-function: ease-in-out;
+}
