@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcy!</title>
+    <linK rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <h2><marquee>Hema's Simple Calci</marquee></h2>
+        <hr>
+        <h3>Enter first number:</h3>
+        <input type="number" id="value1">
+        <h3>Enter second number:</h3>
+        <input type="number" id="value2">
+        <br>
+        <h3>Operation:</h3>
+        <button class="button" onclick="add()">+</button>
+        <button class="button" onclick="substract()">-</button>
+        <button class="button" onclick="multiply()">*</button>
+        <button class="button" onclick="divide()">/</button>
+        <button class="button" onclick="modulus()">%</button>
+        <button class="button" onclick="square()">^2</button>
+        <h3>Result: </h3>
+        <p id="answer1">Here you can see answer</p>
+    </div>
+    <script src="./scrpt.js"></script>
+</body>
+</html>
