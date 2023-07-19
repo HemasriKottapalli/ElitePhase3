@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulby</title>
+    <style>
+       .img{
+            display:flex;
+            justify-content: center;
+            padding-top:20%;
+        }
+        img{
+            width:100px;
+            height:200px;
+        }
+        .buttons{
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="img">
+            <img id="bulb" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvR520LeGXnVQH8Cr485rQpeHS-ZUYVnGAvw&usqp=CAU" alt="Bulb off image">
+        </div>
+        <br>
+        <div class="buttons">
+            <button onclick="bulbOn()">ON</button>
+            <button onclick="bulbOff()">OFF</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
