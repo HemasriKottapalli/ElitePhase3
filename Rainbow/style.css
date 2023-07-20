@@ -1,0 +1,18 @@
+.button{
+    width:200px;
+    height:50px;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-color: black;
+    border: 2px solid white;
+}
+.button:hover{
+    transform: scale(1.1);
+    background-color: rgb(75, 60, 60);
+}
+body{
+    display:flex;
+    justify-content: center;
+    padding-top:25%;
+}
