@@ -11,3 +11,9 @@ https://hemasrikottapalli.github.io/ElitePhase3/SimpleCalci/
 
 4.Tic Tac Toe
 https://hemasrikottapalli.github.io/ElitePhase3/TicTacToe/
+
+5.Minion Eye Roll
+https://hemasrikottapalli.github.io/ElitePhase3/MinionEyes/index
+
+6.Rainbow colors
+https://hemasrikottapalli.github.io/ElitePhase3/Rainbow/index
