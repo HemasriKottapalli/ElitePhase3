@@ -19,4 +19,6 @@ https://hemasrikottapalli.github.io/ElitePhase3/MinionEyes/index
 https://hemasrikottapalli.github.io/ElitePhase3/Rainbow/index
 
 //REACT PROJECTS
-DAY1: Biography https://hemasrikottapalli.github.io/ElitePhase3/Biography/index.html
+<br>
+DAY1: Biography
+https://hemasrikottapalli.github.io/ElitePhase3/Biography/index.html
