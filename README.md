@@ -18,7 +18,7 @@ https://hemasrikottapalli.github.io/ElitePhase3/MinionEyes/index
 6.Rainbow colors
 https://hemasrikottapalli.github.io/ElitePhase3/Rainbow/index
 
-//REACT PROJECTS
-<br>
-DAY1: Biography
+7.Biography
 https://hemasrikottapalli.github.io/ElitePhase3/Biography/index.html
+
+8.Happy Birthday
