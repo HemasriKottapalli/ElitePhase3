@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:600px;
+    height:595px;
+    /* border: 2px solid black; */
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "cont i1"
+    "cont i2"
+    "i3 i4";
+    grid-gap:15px;
+}
+
+#content{
+    grid-area: cont;
+    background-image: url(./assets/hbday.png);
+    background-size:contain;
+    background-color: #CC5500;
+}
+
+#img1{
+    grid-area: i1;
+    background-image: url(./assets/image1.jpeg);
+}
+
+#img2{
+    grid-area: i2;
+    background-image: url(./assets/image2.jpeg);
+
+}
+
+#img3{
+    grid-area: i3;
+    background-image: url(./assets/image3.jpeg);
+}
+
+#img4{
+    grid-area: i4;
+    background-image: url(./assets/image4.jpeg);
+}
+
+.box{
+    /* background-color: blueviolet; */
+    border: 5px solid white;;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#message{
+    color:white;
+    border: 5px solid white;;
+    width:600px;
+    height:590px;
+    background-color: #CC5500;
+    border-radius: 2px solid grey;
+    padding:2%;
+    font-family: cursive;
+    font-size: large;
+    box-shadow: 10px 10px 10px grey;
+}
+
+body{
+    display:flex;
+    gap:15px;
+    margin:40px;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    background:linear-gradient(#314755,
+#26a0da);
+}
